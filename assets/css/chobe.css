@@ -1,0 +1,452 @@
+ /* hero image start */
+ .bgimage {
+    width:100%;
+    height:610px;
+    background: url('../images/national-park/chobe--3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    margin-top:6rem;
+  }
+  .bgimage h4 {
+    color:white;
+    text-shadow:2px 2px #333;
+  }
+  .hero-content{
+    position: absolute;
+    text-align: center;
+    top:46%;
+    left: 37%;
+  
+  }
+  .top-left {
+  position: relative;
+  top: 8px;
+  left: 16px;
+  background: #fff;
+  color: #000;
+  width: fit-content;
+  padding: 10px 20px;
+  }
+  .top-left h4{
+  text-shadow:2px 2px #333;
+  }
+  
+  .chobe-page {
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+  
+  /* hero image end */
+
+  .seasonality {
+    background-color: #6c4100;
+    margin-bottom: -25px !important;
+  }
+
+  .season-head {
+    font-size: 24px;
+    color: rgb(85, 235, 55) !important;
+
+  }
+
+  .bullet1, .bullet2, .bullet3 {
+    margin: 14px;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    padding: 4px 6px;
+  }
+
+    .bullet1{
+    background: #5f682e;
+    }
+    .bullet2{
+    background: #979d70;
+    }
+    .bullet3{
+    background: #6c4100;
+    }
+
+    .bannerimg{
+    width:100%;
+    height:42rem;
+    background: url('../images/national-park/game-drive.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    margin-top:0rem;
+
+    }
+
+    .bullet-green, .bullet-red,
+    .bullet-grey, .bullet-yellow,
+    .bullet-dark-red, .bullet-light-green {
+      height: 14px;
+      width: 14px;
+      border-radius: 50%;
+      display: inline-block;
+      float: left;
+      padding: 0px !important;
+      margin: 5px !important;
+      margin-left: -10px !important;
+  }
+  
+  .bullet-green {
+    background-color: green;  
+  }
+
+  .bullet-light-green {
+    background-color: lightgreen;  
+  }
+
+  .bullet-dark-red {
+    background-color: darkred;  
+  }
+
+  .bullet-red {
+    background-color: red;  
+  }
+
+  .bullet-yellow {
+    background-color: yellow;  
+  }
+
+  .bullet-grey {
+    background-color: grey;  
+  }
+
+
+  .animal-status{
+    width:fit-content;
+    font-size: 14px;
+  }
+   
+  p.animal img {
+      display: none;
+      position: absolute;
+      left:0px;
+      top: 20px;
+      transition: 3s ease-in-out;
+  }
+  p.animal {
+      display: inline-block;
+      position: relative;
+      margin-left:-100px;
+      color:#fff;
+      
+  }
+  p.animal img {
+      display: none;
+  }
+  p.animal:hover img {
+      display: inherit;
+      border:5px solid rgb(228, 226, 226);
+      border-radius: 10px;
+      position: absolute;
+      top: -200px;
+      left:-82px;
+      /* transition-delay: 1.8s; */
+      
+  }
+  p.animal {
+      margin-left: 10px;
+  }
+
+  .delta-wildlife {
+    background-color: #6c4100;
+    /* background-color: #362515; */
+    padding-bottom: 10px;
+    
+  }
+  
+  /* Container holding the image and the text */
+  .container-bg {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .wildlife {
+    padding-left: 50px;
+    
+  }
+
+  .card-img-top {
+    /* background-color: #fff; */
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+
+   /* Places to stay slider */
+
+   .slide-container{
+    width: 100%;
+    padding: 10px 0;
+  }
+  .slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .card{
+    border-radius: 25px;
+    background-color: transparent;
+  }
+  .image-content,
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+  }
+  .image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 22px 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4070F4;
+    border-radius: 25px 25px 0 25px;
+  }
+  .overlay::before,
+  .overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+  }
+  .overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+  }
+  .card-image{
+    position: relative;
+    height: 333px;
+    width: 100%;
+    background: #FFF;
+    padding: 3px;
+    border-radius: 10px;
+  }
+  .card-image .card-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+  }
+  .description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+  }
+  .button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #131314;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button:hover{
+    background: #131314;
+  }
+  
+  .swiper-navBtn{
+    color: #131314;
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+    color: #131314;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 35px;
+  }
+  .swiper-button-next{
+    right: 0;
+    border: 2px solid #131314;
+    background: #fff;
+    border-radius: 50%;
+    padding: 22px;
+    margin: 0 24px;
+    box-shadow: 2px 2px 4px #000;
+  }
+  .swiper-button-prev{
+    left: 0;
+    border: 2px solid #131314;
+    background: #fff;
+    border-radius: 50%;
+    padding: 22px;
+    margin: 0 24px;
+    box-shadow: 2px 2px 4px #000;
+  }
+  .swiper-pagination-bullet{
+    background-color: #fff;
+    opacity: 1;
+    height: 15px;
+    width: 15px;
+    
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #4070F4;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      /*display: none;*/
+    }
+  }
+  
+  
+  .stay-details{
+  position: absolute;
+  left: 3px;
+  bottom: 25px;
+  background: linear-gradient(to bottom,transparent,rgba(68,20,20,.8) 100%);
+  width: 100%;
+  height: 50%;
+  transition: background 0.5s ease;
+  border-radius:10px;
+  }
+  
+  .stay-details-title {
+    position: absolute;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    margin-top:10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+    bottom:35px;
+  }
+  .stay-details-desc {
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    height: 30px;
+    padding-top: 10px;
+    position: absolute;
+    border-top: 1px solid #fff;
+    width: calc(100% - 40px);
+    padding-left: 10px;
+  }
+  .stay-details-desc p{
+    display: inline;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    line-height: 23px;
+  }
+  .price{
+    position: absolute;
+    color: #fff;
+    right: 20px;
+    bottom: 10px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  .places-title {
+    margin-left: 50px;
+    border-bottom: 4px solid #fff;
+    width: fit-content;
+    line-height: 3rem;
+    padding: 10px;
+  }
+
+  .places-to-stay {
+  background-color: #a19898;
+  padding: 50px 0px;
+  }
+
+  /* map */
+  #map {
+    height: 600px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+.live-weather {
+  background-color: #ccbbbb;
+  padding: 50px 0px;
+}
+
+.bg-weather{
+  background-image: linear-gradient(lightblue, white);
+  border: 2px solid #000;
+ 
+  
+}
+
+  
+
+  
+    

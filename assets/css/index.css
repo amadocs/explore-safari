@@ -1,0 +1,54 @@
+/*media queries*/
+@media only screen and (max-width: 600px) {
+  body{
+    width:100%;
+  }  
+    .logo{
+      width:20% !important;
+    }
+    .logo-text{
+    font-size: 18px;
+    }
+    .copyright-text{
+      text-align: center;
+    }
+    
+    .carousel-caption{
+      top:18px !important;    
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+     display: none;
+    }
+    .carousel-caption h1{
+      font-size: 20px !important;
+    }
+    .carousel-indicators {
+      display: none !important;
+    }
+    .carouselH1{
+      padding-bottom: 0.5rem !important;
+    }
+    .p-5{
+      padding: 1rem!important;
+    }
+    .caption{
+      width:65% !important;
+      bottom: 16%;
+    }
+    .img-fluid{
+      height:210px;
+    }
+    .navbar-brand span{
+      font-size:1rem !important;
+    }
+    .navbar-light .navbar-toggler{
+      right:100px;
+    }
+    #about{
+      margin-top: -18rem;
+    }
+    .social-section {
+      float: none;
+      text-align: center;
+    }
+  }

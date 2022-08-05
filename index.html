@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" >
+
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+      </script>
+
+   <!--emailJS script-->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        
+        
+    <script type="text/javascript">
+      (function() {
+          // https://dashboard.emailjs.com/admin/account
+          emailjs.init('DOBqgWJovmKojvLBf');
+      })();
+  </script>
+ 
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+
+  <title>Explore Safaris</title>
+</head>
+
+<body> 
+  
+  <!--Navbar start-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html#">
+        <img src="assets/images/logo.png" class="logo">
+        <span class="logo-text">EXPLORE SAFARIS</span>
+      </a>
+     
+      <button class="navbar-toggler position" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#explore">EXPLORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#contact">CONTACT US</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--Navbar end-->
+
+  <!--Carousel start-->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" id="home">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/hippo-chobe1.jpg" class="d-block w-100 img-fluid" alt="hippo">
+        <div class="carousel-caption ">
+          <h1 class="carouselH1">Experience Safaris</h1>
+
+          <p>The untouched and undestroyed nature.</p>
+          <div class="card1 d-none d-md-block">
+            Capital: Gaborone
+            <br>
+            Time Zone(s): GMT +2
+            <br>
+            Avg Flight Time: 14.5 hours(Indirect)
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/sunset.jpg" class="d-block w-100 img-fluid" alt="sunset">
+        <div class="carousel-caption ">
+          <h1 class="carouselH1">Experience Safaris</h1>
+
+          <p>The untouched and undestroyed nature.</p>
+          <div class="card1 d-none d-md-block">
+            Capital: Gaborone
+            <br>
+            Time Zone(s): GMT +2
+            <br>
+            Avg Flight Time: 14.5 hours(Indirect)
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/elephants-slider.jpg" class="d-block w-100 img-fluid" alt="elephant">
+        <div class="carousel-caption">
+          <h1 class="carouselH1">Experience Safaris</h1>
+
+          <p>The untouched and undestroyed nature.</p>
+          <div class="card1 d-none d-md-block">
+            Capital: Gaborone
+            <br>
+            Time Zone(s): GMT +2
+            <br>
+            Avg Flight Time: 14.5 hours(Indirect)
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/okavango-lions.jpg" class="d-block w-100 img-fluid" alt="lions drinking water">
+        <div class="carousel-caption">
+          <h1 class="carouselH1">Experience Safaris</h1>
+
+          <p>The untouched and undestroyed nature.</p>
+          <div class="card1 d-none d-md-block">
+            Capital: Gaborone
+            <br>
+            Time Zone(s): GMT +2
+            <br>
+            Avg Flight Time: 14.5 hours(Indirect)
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Carousel end-->
+
+<!--About start-->
+<section class="p-5" id="about">
+  <div class="container-fluid">
+      <div class="row g-4">
+          <h3 class="text-secondary mb-4 text-center"><span class="section-head">ABOUT</span></h3>
+          <div class="col-md">
+            <div class="card bg-dark text-light  p-4 explore-info">
+              
+              <h5 class="card-title mt-3 text-center">Okavango Delta</h5>
+              <p class="card-text">
+                <div>If you’ve ever wondered what happens when a river meets a desert, the Okavango Delta is your answer.<br><br>
+                   After coursing its way through Namibia and Botswana from Angola, it’s here that the Okavango River reaches the semi-arid sands of the Kalahari desert, spilling life-giving arteries through the flat floodplains.
+                </div>
+               
+                <button type="button" class="btn btn-lg btn-success m-4" data-bs-toggle="modal" data-bs-target="#okavango">
+                  Read More
+                </button>
+              </p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light p-4 explore-info">
+              <h5 class="card-title mt-3 text-center">Chobe National Park
+              </h5>
+              <p class="card-text">
+                <div>First set aside as a wildlife reserve in 1930, Chobe National Park, which sits to the north east of the country, officially became Botswana’s first national park in 1968.
+                  <br><br>
+                  It’s been a pretty popular safari spot ever since;even <strong><i>Hollywood royalty Elizabeth Taylor and Richard Burton</i></strong>  chose the park for their Honeymoon in 1975.
+       
+                </div>
+                <button type="button" class="btn btn-lg btn-success m-4" data-bs-toggle="modal" data-bs-target="#national_park">
+                  Read More
+                </button>
+              </p>
+          </div>                            
+          </div>
+          <div class="col-md m-auto">
+            <div class="card">
+              <p class="card-text">
+                <div class="video-wrapper">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/__lYWslv7W4?start=90&loop=1" width="100%" height="300" ></iframe>
+                  
+                </div>
+              </div>
+              </p>
+          </div>                            
+          </div>
+          
+      </div>
+  </div>
+</section>
+<!--About end-->
+
+  <!--Explore start-->
+  <div class="row explore p-5 bg-explore"  id="explore">
+    <div class="col-lg-12 text-center text-primary">  
+           <h3 class="text-secondary mb-4 text-center"><span class="section-head">EXPLORE</span></h3>
+    </div>
+     <div class="col-md-6">
+      <div class="container-explore">
+        <div class="content">
+          <a href="okavango.html" target="_blank">
+            <div class="content-overlay"></div>
+            <img class="content-image img-fluid" src="assets/images/okavango/okavango-home.jpg">
+            <div class="c1">
+              <div class="text-center caption lead">Botswana<hr class="divider"/>Okavango Delta</div>
+            </div>
+            <div class="content-details fadeIn-bottom">
+              <h3>Place to explore</h3>
+              <p class="lead">If you’re after a true wilderness experience in one of Africa’s last Eden’s, make the time to explore the Okavango Delta</p>
+              <button class="btn btn-lg btn-success">Explore  Now</button>
+
+            </div>
+          </a>
+          
+        </div>
+        <a href="okavango.html" target="_blank">
+        <div class="d-grid mt-2">
+            <button class="btn btn-lg btn-success" type="button">Explore</button>
+            </div>
+          </a>
+     </div>
+
+   </div>
+   
+   <div class="col-md-6">
+    <div class="container-explore">
+      <div class="content">
+        <a href="chobe.html" target="_blank">
+          <div class="content-overlay"></div>
+          <img class="content-image 
+          img-fluid" src="assets/images/national-park/chobe--3.jpg">
+          <div class="c1">
+            <div class="text-center caption lead
+            ">Botswana<hr class="divider"/>Chobe National Park</div>
+          </div>
+          <div class="content-details fadeIn-bottom">
+            <h3>Place to explore</h3>
+            <p class="lead">If you’re after an action-packed animal adventure in lush surrounds, Chobe’s your place</p>
+            <button class="btn btn-lg btn-success">Explore  Now</button>
+
+          </div>
+        </a>
+      </div>
+      <a href="chobe.html" target="_blank">
+      <div class="d-grid mt-2">
+        <button class="btn btn-lg btn-success" type="button">Explore</button>
+        </div>
+        </a>
+   </div>
+ </div>
+ </div>
+   <!--Explore end-->
+
+  <!--Contact-us start-->
+
+  <section class="bg-contact">
+    <div class="row text-light p-5 "id="contact">
+        <div class="col-lg-12 text-center text-primary">  
+          <h3 class="text-secondary mb-4 text-center"><span class="section-contact-title">CONTACT</span></h3>
+        </div>
+         <div class="col-md-6">
+          <div class="container">
+          <div class="text-left  mt-2 p-4 mb-4"><h4 class="ruler">Contact Details</h4>
+            <p><b><i class="fa-solid fa-location-dot"></i> Address: </b><span>ABC, Washington, AAA Road</span></p>
+            <p><b><i class="fa-solid fa-phone"></i> Phone Number: +353 01 567432 </b><span><a href="tel:+000 000000">+000 000000</a></span></p>
+            <p><b><i class="fa-solid fa-envelope"></i> Email: explore-safaris@gmail.com</b><span><a href="mailto:testemail@gmail.com">testemail@gmail.com</a></span></p>
+          </div>
+           </div>
+           
+         </div>
+         <div class="col-md-6">
+            <div class="container py-4">
+            
+                <form name="contactForm" id="contactForm" onsubmit="return validateForm()" action="contact-form.html" method="post">
+ 
+                  <div class="row mx-3 g-2">
+                      <div class="col-md-6">
+                          <label  class="form-label">First Name</label>
+                          <input type="text" class="form-control" id="firstname" name="firstname">
+                          <div class="error" id="firstnameErr"></div>
+                      </div>
+                      <div class="col-md-6">
+                          <label  class="form-label">Last Name</label>
+                          <input type="text" class="form-control" id="lastname" name="lastname" >
+                          <div class="error" id="lastnameErr"></div>
+                      </div>
+                      <div class="col-md-6">
+                          <label class="form-label">Email Address</label>
+                          <input type="text" class="form-control" id="email" name="email" >
+                          <div class="error" id="emailErr"></div>
+                      </div>
+                      <div class="col-md-6">
+                          <label class="form-label">Phone Number</label>
+                          <input type="text" class="form-control" id="phonenumber" name="phonenumber"  maxlength="15">
+                          <div class="error" id="phonenumberErr"></div>
+                      </div>
+                      <div class="col-12">
+                          <label class="form-label">Subject</label>
+                          <input type="text" class="form-control" id="subject" name="subject">
+                          <div class="error" id="subjectErr"></div>
+                      </div>
+                      <div class="col-12">
+                          <label class="form-label" >Message</label>
+                          <textarea class="form-control" id="message" name="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+                          <div class="error" id="messageErr"></div>     
+                      </div>
+                      <div class="col-12">
+                          <button type="submit" class="btn btn-lg btn-success">Submit
+
+                          </button>
+                      </div>
+              
+                  </div>
+                 
+              </form>
+                
+            </div>
+              
+             
+             
+         </div>
+       </div>
+      </section>     
+  <!--Contact-us end-->
+
+  <!-- Modal Chobe National Park start-->
+<div class="modal fade" id="national_park" tabindex="-1" aria-labelledby="nationalParkModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="nationalParkModalLabel">Chobe National Park</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Today, Chobe encompasses four diverse wildlife regions that all carry the promise of an action-packed safari: <br>The lush Chobe Riverfront (the most concentrated and popular area), the grassland and clay Ngwezumba pans, remote Savute channel area, and the Linyanti Marshes, similar to the Okavango Delta.
+        </p>
+          <p>The real reason Chobe is an African safari highlight is its huge elephant population. <br><br> Thanks to exceptional conservation efforts, the elephant population here has swelled to an estimated 120,000  – thought to be the highest concentration of African elephants in the world.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Chobe National Park end-->
+
+<!-- Modal okavango Delta start-->
+<div class="modal fade" id="okavango" tabindex="-1" aria-labelledby="okavangoModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="okavangoModalLabel">Okavango Delta</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          It’s the world’s only inland delta and the result is an ever-changing tapestry of exceptional natural beauty and natural abundance.
+          <br><br>
+          
+          The World Heritage-listed area is an ecological hotspot, with its network of reed-lined waterways and channels, flooded woodlands, palm-fringed islands providing vital habitat for some of Africa’s most celebrated flora and fauna.
+        </p>
+        <p>
+        <strong><i>ROUND WINNER: Okavango Delta.</i></ROUND></strong> Sure, Chobe is beautiful, and diverse. But the Okavango Delta is a totally unique eden smack in the heart of Southern Africa.
+      </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal okavango Delta end-->
+
+<!--Footer start-->
+
+<footer class="p-2 text-dark">
+  <div class="container-fluid"> 
+    <div class="row align-items-center  g-4">
+     
+      <div class="col-md-4">
+        <a href="index.html#">
+          <img src="assets/images/logo.png" class="logo" alt="Logo" />
+          <span class="logo-text">EXPLORE SAFARIS</span>
+        </a>
+      </div>
+      <div class="col-md-6 copyright-text">
+        Copyright &copy; For educational purposes only | All Rights Reserved  
+      </div>
+      <div class="col-md-2">
+        <div class="social-section">
+          <a href="https://www.instagram.com/" target="_blank"><span class="social-icons h2"><i class="fab fa-instagram"></i></span></a>
+          <a href="https://www.facebook.com/" target="_blank"><span class="social-icons h2"><i class="fab fa-facebook"></i></span> </a>
+          <a href="https://twitter.com/" target="_blank"><span class="social-icons h2"><i class="fab fa-twitter"></i></span></a>
+          <a href="https://www.youtube.com/" target="_blank"><span class="social-icons h2"><i class="fab fa-youtube"></i></span></a>
+          
+        </div>  
+      </div>
+      
+    </div>
+  </div>  
+  
+</footer>
+
+<!--Footer end-->
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <!--main javascript file-->
+    <script src="assets/js/script.js"></script>
+     
+
+
+</body>
+
+
+</html>
+
+
