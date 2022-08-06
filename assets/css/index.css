@@ -52,7 +52,7 @@
     text-align: center;
   }
   .position{
-    right:30%;
+    right:20%;
   }
   }
     
@@ -184,7 +184,7 @@ footer{
   width:60px;
 }
 .position{
-right:14%;
+right:4%;
 }
 .carousel{
   margin-bottom:2rem;
@@ -222,10 +222,9 @@ padding-top: 0px;
   margin-right: -2px;
 }
 }
-}
 
 
-@media (min-width:801px) and (max-width: 1024px){
+@media (min-width:801px) and (max-width: 1023px){
   body {
     width:100% !important;
   }
@@ -268,3 +267,53 @@ padding-top: 0px;
     font-size: small;
   }
   }
+
+  @media (min-width:1024px){
+    body {
+      width:100% !important;
+    }
+    footer{
+      width:100% !important;
+    }
+    .position{
+    right:4%;
+    }
+    #about{
+      margin-top: 5rem;
+    }
+    .carousel{
+      margin-bottom:2rem;
+    } 
+    .carousel-indicators {
+      bottom:50px;
+    } 
+    .card1{
+      width:410px;
+      bottom:40%;
+      line-height:20px;
+    }
+    .caption{
+      width: 218px;
+      max-width: 300px;
+      bottom: 14%;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .carouselH1 {
+    padding-top: 0px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+       top: -170px;
+    }
+    .logo-text{
+        font-weight: 900;
+        font-size: 18px;
+        padding: 4px;
+    }
+    .copyright-text{
+      font-size: small;
+    }
+    .fab{
+      margin-right: -11px;
+    }
+    }
