@@ -1,5 +1,6 @@
 /*media queries*/
-@media only screen and (max-width: 600px) {
+
+@media (min-width:320px) and (max-width: 400px){
   body{
     width:100%;
   }  
@@ -17,7 +18,121 @@
       top:18px !important;    
     }
     .carousel-control-next-icon, .carousel-control-prev-icon {
-     display: none;
+      display: block;
+      top: 15%;
+      position: absolute;
+    }
+    .carousel-caption h1{
+      font-size: 20px !important;
+    }
+    .carousel-indicators {
+      display: none !important;
+    }
+    .carouselH1{
+      padding-bottom: 0.5rem !important;
+    }
+    .p-5{
+      padding: 1rem!important;
+    }
+    .caption{
+    width: 65% !important;
+    bottom: 24%;
+    font-size: 16px;
+    padding: 0px;
+  }
+  .navbar-brand span{
+    font-size:1rem !important;
+  }
+  
+  #about{
+    margin-top: -20rem;
+  }
+  .social-section {
+    float: none;
+    text-align: center;
+  }
+  }
+    
+  
+  @media (min-width:401px) and (max-width: 480px){
+    body{
+      width:100%;
+    }  
+      .logo{
+        width:20% !important;
+        margin-left: 16px;
+      }
+      .logo-text{
+      font-size: 18px;
+      }
+      .copyright-text{
+        text-align: center;
+        padding: 0px 30px;
+      }
+      
+      .carousel-caption{
+        top:18px !important;    
+      }
+      .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: block;
+        top: 15%;
+        position: absolute;
+      }
+      .carousel-caption h1{
+        font-size: 20px !important;
+      }
+      .carousel-indicators {
+        display: none !important;
+      }
+      .carouselH1{
+        padding-bottom: 0.5rem !important;
+      }
+      .p-5{
+        padding: 1rem!important;
+      }
+      .caption{
+      width: 65% !important;
+      bottom: 24%;
+      font-size: 16px;
+      padding: 0px;
+    }
+    .navbar-brand span{
+      font-size:1rem !important;
+    }
+    .position{
+      right:14%;
+    }
+    
+    #about{
+      margin-top: -20rem;
+    }
+    .social-section {
+      float: none;
+      text-align: center;
+    }
+  }
+        
+@media (min-width:481px) and (max-width: 600px) {
+  body{
+    width:100%;
+  }  
+    .logo{
+      width:20% !important;
+    }
+    .logo-text{
+    font-size: 18px;
+    }
+    .copyright-text{
+      text-align: center;
+    }
+    
+    .carousel-caption{
+      top:18px !important;    
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+      display: block;
+      top: 15%;
+      position: absolute;
     }
     .carousel-caption h1{
       font-size: 20px !important;
@@ -33,22 +148,120 @@
     }
     .caption{
       width:65% !important;
-      bottom: 16%;
+      bottom: 10%;
+      font-size: 16px;
     }
-    .img-fluid{
+    /* .img-fluid{
       height:210px;
-    }
+    } */
     .navbar-brand span{
       font-size:1rem !important;
     }
-    .navbar-light .navbar-toggler{
+    /* .navbar-light .navbar-toggler{
       right:100px;
-    }
+    } */
     #about{
-      margin-top: -18rem;
+      margin-top: -16rem;
     }
     .social-section {
       float: none;
       text-align: center;
     }
+  }
+
+
+@media (min-width:601px) and (max-width: 800px){
+body {
+  width:100% !important;
+}
+footer{
+  width:100% !important;
+}
+.logo{
+  width:60px;
+}
+.position{
+right:14%;
+}
+.carousel{
+  margin-bottom:2rem;
+} 
+.carousel-indicators {
+  bottom:50px;
+} 
+.card1{
+  width:410px;
+  bottom:40%;
+  line-height:20px;
+}
+.caption{
+  width: 218px;
+  max-width: 300px;
+  bottom: 14%;
+  font-size: 16px;
+  line-height: 20px;
+}
+.carouselH1 {
+padding-top: 0px;
+}
+.carousel-control-next, .carousel-control-prev {
+   top: -170px;
+}
+.logo-text{
+    font-weight: 900;
+    font-size: 16px;
+    padding: 4px;
+}
+.copyright-text{
+  font-size: small;
+}
+.fab{
+  margin-right: -2px;
+}
+}
+}
+
+
+@media (min-width:801px) and (max-width: 1024px){
+  body {
+    width:100% !important;
+  }
+  footer{
+    width:100% !important;
+  }
+  .position{
+  right:4%;
+  }
+  .carousel{
+    margin-bottom:2rem;
+  } 
+  .carousel-indicators {
+    bottom:50px;
+  } 
+  .card1{
+    width:410px;
+    bottom:40%;
+    line-height:20px;
+  }
+  .caption{
+    width: 218px;
+    max-width: 300px;
+    bottom: 14%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .carouselH1 {
+  padding-top: 0px;
+  }
+  .carousel-control-next, .carousel-control-prev {
+     top: -170px;
+  }
+  .logo-text{
+      font-weight: 900;
+      font-size: 18px;
+      padding: 4px;
+  }
+  .copyright-text{
+    font-size: small;
+  }
   }
